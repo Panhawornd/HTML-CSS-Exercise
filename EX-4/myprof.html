@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Profile</title>
+</head>
+<body>
+    <style>
+        body{
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        margin: 0;
+        }
+        .profile_card{
+            position: relative;
+            background-color: white;
+            border-radius: 15px;
+            border-style: solid;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .arrow {
+            position: absolute; 
+            top: 10px;
+            left: 10px; 
+            width: 30px; 
+            height: auto;
+        }
+        .profile_pic{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+        }
+        .name{
+            font-size: medium;
+            margin: 10px;
+            color: #333;
+        }
+        .bio{
+            color: rgb(62, 59, 59);
+            font-size: small;
+
+        }
+        .stats {
+            display: flex; 
+            justify-content: space-around;
+            margin-top: 15px;
+            margin-left: 20px;
+
+        }
+
+        .stat {
+            font-size: small;
+            text-align: center;
+        }
+        .stat p {
+            margin: 0;
+        }
+
+        .count {
+            font-weight: bold; 
+            font-size: 1.2em; 
+            color: rgb(62, 59, 59); 
+        }
+        .text{
+            color: rgb(62, 59, 59);
+            font-size: small;
+        }
+        #link1{
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+            margin-top: 15px;
+        }
+        #link2{
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+        }
+        #link3{
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+        }
+        #link4{
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+        }
+        .facebook{
+            margin-right: 20px;
+        }
+        .links a {
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        .links a:last-child {
+            margin-right: 0;
+        }
+        .arrow:hover{
+            cursor: pointer;
+            background-color: rgb(171, 170, 170);
+            border-radius: 50px;
+        }
+    </style>
+    <div class="profile_card">
+        <img src="Arrow_14-512.webp" class="arrow">
+        <img src="5djhomxg3nl61.jpg" alt="Profile Picture" class="profile_pic">
+        <p class="name"><strong>Phan Panhawornd</strong></p>
+        <p class="bio">Study in CADT, enjoy listening to music, love playing sports.</p>
+        <div class="stats">
+            <div class="stat">
+                <p>Posts</p>
+                <p class="count">5</p>
+            </div>
+            <div class="stat">
+                <p>Following</p>
+                <p class="count">5</p>
+            </div>
+            <div class="stat">
+                <p>Followers</p>
+                <p class="count">1M</p>
+            </div>
+        </div>
+        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque perferendis corporis voluptas illo fugiat quasi atque quia impedit eveniet quam at aliquam, esse earum vel, iusto, pariatur qui. Quam, molestiae!</p>
+        <div class="links">
+            <a class="facebook" href="https://www.facebook.com/" atl="facebook">
+                <img src="facebook_icon_2013svg.png" id="link1">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="instagram-icon-logo-symbol-free-png.webp" id="link2">
+            </a>
+            <a href="https://x.com/__x">
+                <img src="X-Logo.jpg" id="link3">
+            </a>
+            <a href="https://www.tiktok.com/explore">
+                <img src="tiktok-6338429_1280.webp" id="link4">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

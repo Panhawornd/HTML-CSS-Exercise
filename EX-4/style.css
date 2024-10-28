@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 0;
+}
+.profile_card{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.arrow {
+    position: absolute; 
+    top: 10px;
+    left: 10px; 
+    width: 30px; 
+    height: auto;
+}
+.profile_pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.name{
+    font-size: medium;
+    margin: 10px;
+    color: #333;
+}
+.bio{
+    color: rgb(62, 59, 59);
+    font-size: small;
+
+}
+.stats {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.stat {
+    font-size: small;
+    text-align: center;
+}
+.stat p {
+    margin: 0;
+}
+
+.count {
+    font-weight: bold; 
+    font-size: 1.2em; 
+    color: rgb(62, 59, 59); 
+}
+.text{
+    color: rgb(62, 59, 59);
+    font-size: small;
+}
+#link1{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+#link2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+#link3{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+#link4{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.facebook{
+    margin-right: 20px;
+}
+.links a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+.links a:last-child {
+    margin-right: 0;
+}
+.arrow:hover{
+    cursor: pointer;
+    background-color: rgb(171, 170, 170);
+    border-radius: 50px;
+}
+
+
+
